@@ -22,4 +22,7 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
 		ofEasyCam cam;
+
+		const float spacing = 30;
+		bool values[24][24];
 };
